@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/base.css">
+  <title>Calculadora de Bases</title>
+</head>
+<body>
+  <div class="models">
+    <h1>Calculadora de Bases </h1>
+    <div class="form" action="#" >
+      Decimal <input  class="decimal"  onchange="imprimir()">
+      Hexadecimal <input class="hex" name="entrada" >
+      Octal <input class="octa" name="entrada">
+      Binário <input class="binary" name="entrada"> 
+      <button onclick="imprimir(decNumber, base)" >Gerar conversão</button>
+      <button  class="limpar">Limpar</button>
+    </div>
+
+  </div>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
